@@ -1,0 +1,20 @@
+{
+    "name": "ty-php/service-article",
+    "license": "MIT",
+    "type": "common-plugin",
+    "description": "微服务-文章内容领域",
+    "keywords": [
+    ],
+    "require": {
+        "php": ">=5.5",
+        "ty-php/local-service-plugin": "^1.0.0",
+        "ty-php/rpc": "^1.0.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [],
+        "psr-4": {
+            "TyPHP\\Article\\": "src"
+        }
+    }
+}
